@@ -1,0 +1,81 @@
+@import "~antd/dist/antd.css";
+
+.site-layout-content {
+  min-height: 77vh;
+  padding: 24px;
+  background: #fff;
+}
+.logo {
+  float: left;
+  width: 35px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+.ant-row-rtl .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+.carousel-holder {
+  width: 20%;
+  padding-top: 29px;
+}
+@media (max-width: 766px) {
+  .carousel-holder {
+    display: none;
+  }
+}
+.submit-button {
+  padding-left: 8%;
+}
+
+.theme_container {
+  width: 100%;
+}
+
+.image_holder {
+  width: 75%;
+  height: 80%;
+  position: inherit;
+  left: 25%;
+}
+
+.center_div {
+  padding: 30px;
+  width: 50%;
+}
+
+.date_holder {
+  position: initial;
+  font-size: 3rem;
+  font-family: cursive;
+  margin: 0px 20px 20px 20px;
+}
+.theme_name {
+  position: inherit;
+  font-size: -webkit-xxx-large;
+  font-family: serif;
+  margin: 100px 20px 0px 20px;
+}
+.right_div {
+  padding-top: 40px;
+  width: 45%;
+  overflow-y: scroll;
+}
+.other_div {
+  display: flex;
+  padding: 5px;
+}
+.color_block{
+  width: 25px;
+  height: 20px;
+  /* background-color: #d9363e; */
+  display: inline-flex;
+  position: absolute;
+  margin-top: 3px;
+}
+
+.color_selector{
+  padding: 0px 10px;
+  margin:0px 5px;
+}

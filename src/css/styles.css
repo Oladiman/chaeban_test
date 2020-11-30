@@ -59,7 +59,8 @@
 }
 .right_div {
   padding-top: 40px;
-  width: 45%;
+  width: 50%;
+  height: 450px;
   overflow-y: scroll;
 }
 .other_div {

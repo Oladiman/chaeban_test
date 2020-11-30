@@ -7,4 +7,4 @@ After cloning the project, run <code>yarn</code> or <code>npm install</code>
 <code> yarn start</code> or <code>npm start</code>
 
 
-the live version can be accessed at 
+the live version can be accessed at https://unruffled-swirles-fde14f.netlify.app/

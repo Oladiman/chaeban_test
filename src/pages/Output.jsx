@@ -24,7 +24,7 @@ export default function OutputPage({ themeColor, other, colorName }) {
           colorName={colorName}
         />
       </Content>
-      <Footer style={{ textAlign: "center" }} />
+      <Footer style={{ textAlign: "center" }}>By Oluwadamilola</Footer>
     </Layout>
   );
 }

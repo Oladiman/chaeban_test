@@ -46,15 +46,15 @@ const GeneratedTheme = ({ themeColor, other, colorName }) => {
   return (
     <div className="container theme_container">
       <Row>
-        <Col span={8} style={{ background: themeColor }}>
+        <Col span={8} style={{ background: themeColor, borderRadius:"0px 0px 0px 10px" }}>
           <img
-            src="https://source.unsplash.com/random"
+            src="https://source.unsplash.com/user/erondu"
             alt="cover_art"
-            style={{borderRadius:"5px"}}
+            style={{borderRadius:"5px 0px 0px 5px"}}
             className="image_holder"
           />
         </Col>
-        <Col span={16} style={{ background: other }} className="other_div">
+        <Col span={16} style={{ background: other, borderRadius:"0px 10px 0px 0px" }} className="other_div">
           <Col span="50%" className="center_div">
             <Typography className="date_holder" style={{ color: themeColor }}>
               {themeDate}

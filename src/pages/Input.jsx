@@ -4,7 +4,6 @@ import {Link} from "react-router-dom";
 import TextEditor from "../components/TextEditor";
 import {
   Layout,
-  Menu,
   Breadcrumb,
   Row,
   Col,
@@ -30,7 +29,6 @@ export default function InputPage({chooseColor}) {
 }
 
   const onChange = (date, dateString) => {
-    // console.log(date, dateString);
     setValues({ ...values, selectedDate: dateString });
   };
   const handleRadio = (e) => {
@@ -51,10 +49,6 @@ export default function InputPage({chooseColor}) {
     <Layout className="layout">
       <Header>
         <div className="logo" />
-        {/* <Menu theme="dark" mode="horizontal" defaultSelectedKeys={["1"]}>
-          <Menu.Item key="1">Home</Menu.Item>
-          <Menu.Item key="2">Generator</Menu.Item>
-        </Menu> */}
       </Header>
       <Content style={{ padding: "0 50px" }}>
         <Breadcrumb style={{ margin: "16px 0" }}>
@@ -136,7 +130,3 @@ export default function InputPage({chooseColor}) {
   );
 }
 
-// background-color: #4158D0;
-// background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-
-// delft blue #1F305E

@@ -12,10 +12,6 @@ export default function OutputPage({ themeColor, other, colorName }) {
     <Layout className="layout">
       <Header>
         <div className="logo" />
-        {/* <Menu theme="dark" mode="horizontal" defaultSelectedKeys={["2"]}>
-          <Menu.Item key="1">Home</Menu.Item>
-          <Menu.Item key="2">Generator</Menu.Item>
-        </Menu> */}
       </Header>
       <Content style={{ padding: "0 50px" }}>
         <Breadcrumb style={{ margin: "16px 0" }}>
@@ -34,7 +30,6 @@ export default function OutputPage({ themeColor, other, colorName }) {
 }
 
 const GeneratedTheme = ({ themeColor, other, colorName }) => {
-  // const themeColor = localStorage.getItem("theme color");
   let history = useHistory();
   const themeText = localStorage.getItem("theme text");
   const themeDate = localStorage.getItem("theme date");
@@ -55,6 +50,7 @@ const GeneratedTheme = ({ themeColor, other, colorName }) => {
           <img
             src="https://source.unsplash.com/random"
             alt="cover_art"
+            style={{borderRadius:"5px"}}
             className="image_holder"
           />
         </Col>
